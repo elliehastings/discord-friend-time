@@ -1,11 +1,11 @@
 // src/index.ts
-import express from "express";
+import express from 'express';
 
 const app = express();
 const port = 3000;
 
-app.get("/", (_req, res) => {
-  res.send("Hello world!");
+app.get('/', (_req, res) => {
+  res.send('Hello world!');
 });
 
 app.listen(port, () => {
