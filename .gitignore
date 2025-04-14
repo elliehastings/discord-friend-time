@@ -1,0 +1,4 @@
+dist/
+.env
+*.http
+node_modules/
